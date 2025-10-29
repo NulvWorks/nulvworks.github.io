@@ -1,0 +1,51 @@
+section {
+  background-color: var(--white);
+  grid-column: 2/5;
+  grid-row: 2/4;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  padding: 10px;
+  border: 3px solid var(--green);
+  border-radius: 5px;
+}
+section input {
+  border: 2px solid var(--green);
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+.Name {
+  display: flex;
+  align-self: center;
+  flex-direction: row;
+}
+.NameText {
+  margin: 5px;
+}
+.ContactInfo {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-self: center;
+}
+.text {
+  height: 125px;
+}
+
+@media (width <= 850px) {
+  .Name {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    width: 80%;
+  }
+}
+
+@media (width <= 480px) {
+  section {
+    grid-column: 2/3;
+  }
+}

@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>DNDeur Alarm</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/ContactStyle.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -33,21 +34,27 @@
 
     <header>
       <div class="dark-header"></div>
-      <h1>DNDeur Alarm</h1>
       <div class="light-header"></div>
-      <div class="header-text">
-        <p>
-          "But I must explain to you how all this mistaken idea of denouncing
-          pleasure and praising pain was born and I will give you a complete
-          account of the system, and expound the actual teachings of the great
-          explorer of the truth, the master-builder of human happiness. No one
-          rejects, dislikes, or avoids pleasure itself, because it is pleasure,
-          but because those who do not know how to pursue pleasure rationally
-          encounter consequences that are extremely painful. Nor again is there
-        </p>
-        <a href="instructions.html">Instructions</a>
-      </div>
-      <img src="./images/Door.webp" alt="Closed wooden double door" />
+      <h1>Contact formulier</h1>
+      <section>
+        <div class="Name">
+          <label for="FName">Voornaam</label>
+          <input type="text" name="Voornaam" id="FName" class="NameText" />
+
+          <label for="LName">Achernaam</label>
+          <input type="text" name="Achternaam" id="LName" class="NameText" />
+        </div>
+        <div class="ContactInfo">
+          <label for="Email">E-mail</label>
+          <input type="text" name="E-mail" id="Email" />
+
+          <label for="Onderwerp">Onderwerp</label>
+          <input type="text" name="Onderwerp" id="Onderwerp" />
+
+          <label for="text">Text</label>
+          <input type="text" name="text" id="text" class="text" />
+        </div>
+      </section>
     </header>
 
     <footer>
