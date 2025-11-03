@@ -40,13 +40,17 @@
       <div class="light-header"></div>
       <h1>Contact formulier</h1>
       <form action="">
-        <div class="Name">
-          <label for="FName">Voornaam</label>
-          <input type="text" name="Voornaam" id="FName" class="NameText" />
-
-          <label for="LName">Achernaam</label>
-          <input type="text" name="Achternaam" id="LName" class="NameText" />
+        <div class="NameInfo">
+          <div class="Name">
+            <label for="FName">Voornaam</label>
+            <input type="text" name="Voornaam" id="FName" class="NameText" />
+          </div>
+          <div class="Name">
+            <label for="LName">Achernaam</label>
+            <input type="text" name="Achternaam" id="LName" class="NameText" />
+          </div>
         </div>
+
         <div class="ContactInfo">
           <label for="Email">E-mail</label>
           <input type="text" name="E-mail" id="Email" />
@@ -56,8 +60,10 @@
 
           <label for="text">Text</label>
           <input type="text" name="text" id="text" class="text" />
+
+          <button type="submit">Confirm</button>
         </div>
-        <button type="submit">Confirm</button>
+        
       </form>
     </header>
 
