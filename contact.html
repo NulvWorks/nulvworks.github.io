@@ -32,11 +32,14 @@
 
     <div class="header-spacer"></div>
 
+    <!-- Header with a weird HTML Layout, (CSS Grids are used) -->
     <header>
+      <!-- Dark header is the top 50% Dark Orange part of the website, needed for css grid -->
       <div class="dark-header"></div>
+      <!-- Light header is the bottom 50% White part of the website -->
       <div class="light-header"></div>
       <h1>Contact formulier</h1>
-      <section>
+      <form action="">
         <div class="Name">
           <label for="FName">Voornaam</label>
           <input type="text" name="Voornaam" id="FName" class="NameText" />
@@ -54,7 +57,8 @@
           <label for="text">Text</label>
           <input type="text" name="text" id="text" class="text" />
         </div>
-      </section>
+        <button type="submit">Confirm</button>
+      </form>
     </header>
 
     <footer>
