@@ -223,6 +223,8 @@ footer {
 footer .navcontainer {
   display: flex;
   justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
   gap: 15px;
   margin-left: 10%;
   width: 40%;
